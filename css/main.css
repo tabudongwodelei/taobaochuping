@@ -756,7 +756,7 @@ header .header_inter a i{
 }
 .mainer1_top .mainer1_one{
     position: absolute;
-    top: 0.6rem;
+    top: 0.55rem;
     height:0.025rem;
     width: 1.05rem;
     overflow: hidden;
@@ -765,15 +765,15 @@ header .header_inter a i{
 .mainer1_top span{
     font-size: 0.4rem;
     position: absolute;
-    left: 4rem;
+    left: 4.25rem;
     top: 0.3rem;
     color:rgb(68, 68, 68);
 }
 .mainer1_top .mainer1_left{
-    left: 2.6rem;
+    left: 2.9rem;
 }
 .mainer1_top .mainer1_right{
-    right: 3rem;
+    right: 2.8rem;
 }
 .mainer1_bottom{
     width: 10rem;
@@ -950,6 +950,7 @@ header .header_inter a i{
     height: 2.55rem;
     margin-top: 0.15rem;
 }
+/*第三页*/
 /*header2部分*/
 .header2{
     width: 10rem;
@@ -960,7 +961,7 @@ header .header_inter a i{
 }
 .header2 ul li a{
     display: block;
-    width: 2rem;
+    width: 2.5rem;
     height: 1.5rem;
     line-height: 1.5rem;
     font-size: 0.35rem;
@@ -976,4 +977,71 @@ header .header_inter a i{
 /*mainer2部分*/
 .mainer2{
     width: 10rem;
+    background: #f4f4f4;
+}
+.mainer2_one{
+    width: 10rem;
+    height: 6.45rem;
+}
+.mainer2_one a{
+    display: block;
+    width: 4.95rem;
+    height: 6.45rem;
+}
+.mainer2_one a:hover{
+    text-decoration: none;
+}
+.mainer2_one img{
+
+}
+.mainer2_one p{
+    margin-left: 0.45rem;
+}
+.mainer2_one p:nth-of-type(1){
+    color: #000000;
+    font-size: 0.3rem;
+    margin-top: 0.2rem;
+}
+.mainer2_one p:nth-of-type(2){
+    margin-top: 0.2rem;
+    position: relative;
+    height: 0.4rem;
+}
+.mainer2_one p span:nth-of-type(1),
+.mainer2_one p span:nth-of-type(2),
+.mainer2_one p span:nth-of-type(3){
+    color:#ff5000;
+}
+.mainer2_one p span:nth-of-type(1){
+    position: absolute;
+    left: 0rem;
+    top: 0.02rem;
+}
+.mainer2_one p span:nth-of-type(2){
+    position: absolute;
+    left: 0.25rem;
+}
+.mainer2_one p span:nth-of-type(3){
+    color:#999;
+    position: absolute;
+    left: 1.1rem;
+}
+.mainer2_one .mainer2_one_left{
+    float: left;
+    width: 4.95rem;
+    height: 6.45rem;
+    margin-right: 0.1rem;
+}
+.mainer2_one .mainer2_one_left img{
+    width: 4.95rem;
+    height: 4.95rem;
+}
+.mainer2_one .mainer2_one_right{
+    float: left;
+    width: 4.95rem;
+    height: 6.45rem;
+}
+.mainer2_one .mainer2_one_right img{
+    width: 4.95rem;
+    height: 4.95rem;
 }
