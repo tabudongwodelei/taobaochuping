@@ -947,3 +947,8 @@ header .header_inter a i{
     height: 2.55rem;
     margin-top: 0.15rem;
 }
+/*header2部分*/
+.header2{
+    width: 10rem;
+    height: 1.5rem;
+}
