@@ -955,3 +955,25 @@ header .header_inter a i{
     width: 10rem;
     height: 1.5rem;
 }
+.header2 ul li{
+    float: left;
+}
+.header2 ul li a{
+    display: block;
+    width: 2rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.35rem;
+    text-align: center;
+    color: #000000;
+}
+.header2 ul li a:hover{
+    text-decoration: none;
+}
+.header2 ul li a.color{
+    border-bottom:2px solid #ff5000;
+}
+/*mainer2部分*/
+.mainer2{
+    width: 10rem;
+}
