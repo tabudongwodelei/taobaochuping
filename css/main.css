@@ -587,6 +587,9 @@ header .header_inter a i{
     margin:0 auto;
     background: #4e525e;
 }
+.main9 a:hover{
+    text-decoration: none;
+}
 .main9_top a{
     display: inline-block;
     width: 1.75rem;
