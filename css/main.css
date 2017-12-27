@@ -827,129 +827,6 @@ header .header_inter a i{
     height: 2.55rem;
     margin-top: 0.15rem;
 }
-.mainer1_bottom_two{
-    height: 3.575rem;
-    text-align: center;
-    margin-bottom: 0.225rem;
-}
-.mainer1_bottom_two .mainer1_two_left{
-    float: left;
-    width: 2.925rem;
-    height: 3.575rem;
-    margin-left: 0.325rem;
-    margin-right: 0.275rem;
-    background: #fff;
-}
-.mainer1_bottom_two .mainer1_two_left img{
-    width: 2.675rem;
-    height: 2.55rem;
-    margin-top: 0.15rem;
-}
-.mainer1_bottom_two .mainer1_two_center{
-    float: left;
-    width: 2.95rem;
-    height: 3.575rem;
-    margin-right: 0.275rem;
-    background: #fff;
-}
-.mainer1_bottom_two .mainer1_two_center img{
-    width: 2.65rem;
-    height: 2.55rem;
-    margin-top: 0.15rem;
-}
-.mainer1_bottom_two .mainer1_two_right{
-    float: left;
-    width: 2.925rem;
-    height: 3.575rem;
-    background: #fff;
-}
-.mainer1_bottom_two .mainer1_two_right img{
-    width: 2.675rem;
-    height: 2.55rem;
-    margin-top: 0.15rem;
-}
-.mainer1_bottom_three{
-    height: 3.575rem;
-    text-align: center;
-    margin-bottom: 0.225rem;
-}
-.mainer1_bottom_three .mainer1_three_left{
-    float: left;
-    width: 2.925rem;
-    height: 3.575rem;
-    margin-left: 0.325rem;
-    margin-right: 0.275rem;
-    background: #fff;
-}
-.mainer1_bottom_three .mainer1_three_left img{
-    width: 2.675rem;
-    height: 2.55rem;
-    margin-top: 0.15rem;
-}
-.mainer1_bottom_three .mainer1_three_center{
-    float: left;
-    width: 2.95rem;
-    height: 3.575rem;
-    margin-right: 0.275rem;
-    background: #fff;
-}
-.mainer1_bottom_three .mainer1_three_center img{
-    width: 2.65rem;
-    height: 2.55rem;
-    margin-top: 0.15rem;
-}
-.mainer1_bottom_three .mainer1_three_right{
-    float: left;
-    width: 2.925rem;
-    height: 3.575rem;
-    background: #fff;
-}
-.mainer1_bottom_three .mainer1_three_right img{
-    width: 2.675rem;
-    height: 2.55rem;
-    margin-top: 0.15rem;
-}
-.mainer1_bottom_four{
-    height: 3.575rem;
-    text-align: center;
-    margin-bottom: 0.45rem;
-}
-.mainer1_bottom_four .mainer1_four_left{
-    float: left;
-    width: 2.925rem;
-    height: 3.575rem;
-    margin-left: 0.325rem;
-    margin-right: 0.275rem;
-    background: #fff;
-}
-.mainer1_bottom_four .mainer1_four_left img{
-    width: 2.675rem;
-    height: 2.55rem;
-    margin-top: 0.15rem;
-}
-.mainer1_bottom_four .mainer1_four_center{
-    float: left;
-    width: 2.95rem;
-    height: 3.575rem;
-    margin-right: 0.275rem;
-    background: #fff;
-}
-.mainer1_bottom_four .mainer1_four_center img{
-    width: 2.65rem;
-    height: 2.55rem;
-    margin-top: 0.15rem;
-}
-.mainer1_bottom_four .mainer1_four_right{
-    float: left;
-    width: 2.925rem;
-    height: 3.575rem;
-    background: #fff;
-}
-.mainer1_bottom_four .mainer1_four_right img{
-    width: 2.675rem;
-    height: 2.55rem;
-    margin-top: 0.15rem;
-}
 /*第三页*/
 /*header2部分*/
 .header2{
@@ -982,6 +859,7 @@ header .header_inter a i{
 .mainer2_one{
     width: 10rem;
     height: 6.45rem;
+    margin-bottom: 0.1rem;
 }
 .mainer2_one a{
     display: block;
@@ -990,9 +868,6 @@ header .header_inter a i{
 }
 .mainer2_one a:hover{
     text-decoration: none;
-}
-.mainer2_one img{
-
 }
 .mainer2_one p{
     margin-left: 0.45rem;
@@ -1031,6 +906,7 @@ header .header_inter a i{
     width: 4.95rem;
     height: 6.45rem;
     margin-right: 0.1rem;
+    background: #fff;
 }
 .mainer2_one .mainer2_one_left img{
     width: 4.95rem;
@@ -1040,6 +916,7 @@ header .header_inter a i{
     float: left;
     width: 4.95rem;
     height: 6.45rem;
+    background: #fff;
 }
 .mainer2_one .mainer2_one_right img{
     width: 4.95rem;
