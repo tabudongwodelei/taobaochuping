@@ -746,6 +746,7 @@ header .header_inter a i{
 .header1_inter div{
     float: left;
     height: 1.675rem;
+    cursor:pointer;
 }
 .header1_inter span{
     font-size: 0.35rem;
@@ -767,6 +768,8 @@ header .header_inter a i{
 }
 .header1_inter .header1_one{
     width: 2.05rem;
+}
+.header1_inter .active{
     border-bottom:2px solid #ff5000;
 }
 .header1_inter .header1_one,
@@ -805,6 +808,12 @@ header .header_inter a i{
     height: 16.65rem;
     background: #f4f4f4;
     margin:0 auto;
+}
+/*mainer1_father部分*/
+.mainer1_father{
+    width: 10rem;
+    height: 15rem;
+    overflow:hidden;
 }
 /*mainer1部分*/
 .mainer1{
@@ -904,8 +913,7 @@ header .header_inter a i{
     height: 2.55rem;
     margin-top: 0.15rem;
 }
-
-
+/*mainer11部分*/
 .mainer11{
     width: 10rem;
 }
@@ -1168,7 +1176,7 @@ header .header_inter a i{
     font-size: 0.45rem;
 }
 .footer1 ul li a.qian span.fa-bell-o{
-    padding-bottom: 0.027rem;
+    padding-bottom: 0.03rem;
 }
 .footer1 ul li a p{
     font-size: 0.3rem;
