@@ -866,12 +866,22 @@ header .header_inter a i{
     height: 2.55rem;
     margin-top: 0.15rem;
 }
+.mainer1_bottom_one .mainer1_one_left a{
+    display: inline-block;
+    width: 2.675rem;
+    height: 3.575rem;
+}
 .mainer1_bottom_one .mainer1_one_center{
     float: left;
     width: 2.95rem;
     height: 3.575rem;
     margin-right: 0.275rem;
     background: #fff;
+}
+.mainer1_bottom_one .mainer1_one_center a{
+    display: inline-block;
+    width: 2.95rem;
+    height: 3.575rem;
 }
 .mainer1_bottom_one .mainer1_one_center img{
     width: 2.65rem;
@@ -884,10 +894,102 @@ header .header_inter a i{
     height: 3.575rem;
     background: #fff;
 }
+.mainer1_bottom_one .mainer1_one_right a{
+    display: inline-block;
+    width: 2.925rem;
+    height: 3.575rem;
+}
 .mainer1_bottom_one .mainer1_one_right img{
     width: 2.675rem;
     height: 2.55rem;
     margin-top: 0.15rem;
+}
+
+
+.mainer11{
+    width: 10rem;
+}
+.mainer11_top{
+    width: 10rem;
+    height: 1.225rem;
+    text-align: center;
+    position: relative;
+}
+.mainer11_top .mainer11_one{
+    position: absolute;
+    top: 0.55rem;
+    height:0.025rem;
+    width: 1.05rem;
+    overflow: hidden;
+    background-color: rgb(68, 68, 68);
+}
+.mainer11_top span{
+    font-size: 0.4rem;
+    position: absolute;
+    left: 4.25rem;
+    top: 0.3rem;
+    color:rgb(68, 68, 68);
+}
+.mainer11_top .mainer11_left{
+    left: 2.9rem;
+}
+.mainer11_top .mainer11_right{
+    right: 2.8rem;
+}
+.mainer11_bottom{
+    width: 10rem;
+}
+.mainer11_bottom a:hover{
+    text-decoration: none;
+}
+.mainer11_bottom p{
+    font-size: 0.35rem;
+    color: #000000;
+    margin-top: 0.05rem;
+}
+.mainer11_bottom_one{
+    margin-bottom: 0.175rem;
+    height: 2.65rem;
+    text-align: center;
+}
+.mainer11_bottom_one img{
+    width: 1.575rem;
+    height: 1.575rem;
+    margin-top: 0.15rem;
+}
+.mainer11_bottom_one .mainer11_one{
+    float: left;
+    width: 2.175rem;
+    background: #fff;
+    margin-left: 0.325rem;
+    margin-right: 0.2rem;
+}
+.mainer11_bottom_one .mainer11_one a{
+    display: inline-block;
+    width: 2.175rem;
+    height: 2.65rem;
+}
+.mainer11_bottom_one .mainer11_two{
+    float: left;
+    width: 2.2rem;
+    background: #fff;
+    margin-right: 0.2rem;
+}
+.mainer11_bottom_one .mainer11_two a{
+    display: inline-block;
+    width: 2.2rem;
+    height: 2.65rem;
+}
+.mainer11_bottom_one .mainer11_three{
+    float: left;
+    width: 2.175rem;
+    background: #fff;
+    margin-right: 0.325rem;
+}
+.mainer11_bottom_one .mainer11_three a{
+    display: inline-block;
+    width: 2.175rem;
+    height: 2.65rem;
 }
 /*第三页*/
 /*header部分*/
