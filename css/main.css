@@ -22,7 +22,7 @@ header .header_inter{
     background:#FE5500 url("../img/logo.png") no-repeat 0.12rem;
     background-size:0.72rem 0.546rem;
     position: fixed;
-    z-index: 9;
+    z-index: 1000;
 }
 header .header_inter a{
     width: 88%;
@@ -166,6 +166,7 @@ header .header_inter a i{
 }
 .main2 .daojishi{
     position: relative;
+    width: 2.65rem;
     top:-3.55rem;
     z-index: 9;
     left: 0.2rem;
@@ -1175,8 +1176,9 @@ header .header_inter a i{
 .footer1 ul li a.qian span{
     font-size: 0.45rem;
 }
-.footer1 ul li a.qian span.fa-shield{
-    padding-bottom: 0.04rem;
+.footer1 ul li a.qian span.fa-grav{
+    font-size: 0.35rem;
+    padding-bottom: 0.1rem;
 }
 .footer1 ul li a p{
     font-size: 0.3rem;
