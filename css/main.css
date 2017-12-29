@@ -164,6 +164,58 @@ header .header_inter a i{
     width: 3.786rem;
     height: 5.04rem;
 }
+.main2 .daojishi{
+    position: relative;
+    top:-3.55rem;
+    z-index: 9;
+    left: 0.2rem;
+}
+.main2 .daojishi span{
+    background: #333;
+    color: #fff;
+    width: 0.533rem;
+    height: 0.506rem;
+    float: left;
+    text-align: center;
+    line-height: 0.506rem;
+    border-radius:1px;
+}
+[data-dpr="2"] .main2 .daojishi span{
+    background: #666;
+    color: #fff;
+    width: 0.533rem;
+    height: 0.506rem;
+    float: left;
+    text-align: center;
+    line-height: 32px;
+}
+[data-dpr="3"] .main2 .daojishi span{
+    background: #666;
+    color: #fff;
+    width: 0.533rem;
+    height: 0.506rem;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.main2 .daojishi .dian{
+    width: 0.066rem;
+    height: 0.213rem;
+    background: #fff;
+    color: #333;
+}
+[data-dpr="2"] .main2 .daojishi .dian{
+    width: 0.066rem;
+    height: 0.213rem;
+    background: #fff;
+    color: #333;
+}
+[data-dpr="3"] .main2 .daojishi .dian{
+    width: 0.066rem;
+    height: 0.213rem;
+    background: #fff;
+    color: #333;
+}
 .main2_left img{
     width: 3.786rem;
     height: 5.04rem;
@@ -981,8 +1033,6 @@ header .header_inter a i{
     width: 10rem;
     height: 1.2rem;
     margin:0 auto;
-    position: fixed;
-    bottom: 0;
 }
 .footer1{
     width: 10rem;
