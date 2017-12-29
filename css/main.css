@@ -107,24 +107,27 @@ header .header_inter a i{
     position: relative;
 }
 .main1 .main1_one{
-    margin-left:0.333rem;
+    float: right;
+    width: 7.9rem;
     height: 0.746rem;
     position: relative;
 }
 .main1 span.span{
-    width: 1.866rem;
+    width: 2.1rem;
     height:0.746rem;
     border-right:2px solid #e8e8e8;
-    margin-right:0;
     position: absolute;
     top: 0.01rem;
-    left: 0.25rem;
+    left: 0rem;
+    z-index:1000;
+    display: block;
 }
 .main1 span.span img{
     width: 1.6rem;
     height: 0.453rem;
     position: absolute;
     top: 0.2rem;
+    left: 0.2rem;
 }
 .main1 span{
     display: inline-block;
@@ -133,7 +136,7 @@ header .header_inter a i{
 .main1 .main1_one span:nth-of-type(1){
     position: absolute;
     top: 0.1rem;
-    left: 2.05rem;
+    left: 0.25rem;
     border:2px solid #d81421;
     border-radius: 0.12rem;
     color:#d81421;
@@ -672,6 +675,7 @@ header .header_inter a i{
 .header1{
     width: 10rem;
     height: 1.675rem;
+    margin:0 auto;
 }
 .header1_inter{
     width: 10rem;
@@ -748,6 +752,7 @@ header .header_inter a i{
     width: 10rem;
     height: 16.65rem;
     background: #f4f4f4;
+    margin:0 auto;
 }
 /*mainer1部分*/
 .mainer1{
@@ -833,97 +838,198 @@ header .header_inter a i{
     margin-top: 0.15rem;
 }
 /*第三页*/
-/*header2部分*/
+/*header部分*/
+.header2_father{
+    width: 10rem;
+    height: 1.1rem;
+    margin:0 auto;
+}
 .header2{
     width: 10rem;
-    height: 1.5rem;
+    height: 1.1rem;
+    margin:0 auto;
+    position: fixed;
+    z-index:1000;
+    background: #f9f9f9;
+    border-bottom:1px solid #d7d7d7;
+}
+.header2 ul{
+    margin:0 auto;
 }
 .header2 ul li{
     float: left;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
 }
 .header2 ul li a{
-    display: block;
-    width: 2.5rem;
-    height: 1.5rem;
-    line-height: 1.5rem;
+    width: 0.85rem;
     font-size: 0.35rem;
-    text-align: center;
     color: #000000;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    display: block;
+    text-align: center;
+}
+.header2 ul li a.content_a{
+    border-bottom:2px solid #222;
 }
 .header2 ul li a:hover{
     text-decoration: none;
 }
-.header2 ul li a.color{
-    border-bottom:2px solid #ff5000;
-}
 /*mainer2部分*/
 .mainer2{
     width: 10rem;
-    background: #f4f4f4;
+    margin:0 auto;
 }
-.mainer2_one{
+.mainer2_one img{
     width: 10rem;
-    height: 6.45rem;
-    margin-bottom: 0.1rem;
+    height: 10rem;
 }
-.mainer2_one a{
-    display: block;
-    width: 4.95rem;
-    height: 6.45rem;
+.mainer2_one_bottom{
+    width: 10rem;
 }
-.mainer2_one a:hover{
+.mainer2_bottom_one{
+    width: 10rem;
+    height: 1.125rem;
+    padding-left: 0.25rem;
+}
+.mainer2_bottom_one p{
+    float: left;
+    width: 8.075rem;
+    font-size: 0.4rem;
+    line-height: 0.6rem;
+}
+.mainer2_bottom_one span.mainer2_span{
+    position: relative;
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.1rem;
+}
+.mainer2_bottom_one span.mainer2_span i{
+    position: absolute;
+    font-size: 0.55rem;
+    left: 0.5rem;
+    top: 0.05rem;
+}
+.mainer2_bottom_one span.mainer2_span span{
+    position: absolute;
+    font-size: 0.3rem;
+    color:#868489;
+    left: 0.46rem;
+    top: 0.65rem;
+}
+.mainer2_bottom_two{
+    width: 10rem;
+    height: 1rem;
+    line-height: 1rem;
+    position: relative;
+    border-bottom:1px solid #e3e5e9;
+}
+.mainer2_bottom_two span.price{
+    position: absolute;
+    top: 0rem;
+    left: 0.19rem;
+    color:#f23030;
+}
+.mainer2_bottom_two span.fuhao{
+    position: absolute;
+    font-size: 0.3rem;
+    left: 0rem;
+    top: 0.06rem;
+}
+.mainer2_bottom_two span.da{
+    position: absolute;
+    font-size: 0.425rem;
+    left: 0.325rem;
+}
+.mainer2_bottom_two span.xiao{
+    position: absolute;
+    font-size: 0.3rem;
+    left: 1.1rem;
+    top: 0.06rem;
+}
+.mainer2_bottom_two span.tongzhi{
+    position: absolute;
+    top: 0.2rem;
+    right: 0.4rem;
+    border:1px solid #e7e7e7;
+    width: 1.575rem;
+    height: 0.65rem;
+    text-align: center;
+    line-height: 0.65rem;
+    border-radius:1px;
+    font-size: 0.3rem;
+    color:#686868;
+}
+.mainer2_two p{
+    border-top:8px solid #f0f2f5;
+    border-bottom:1px solid #e3e5e9;
+    padding-top: 0.4rem;
+    padding-bottom: 0.425rem;
+    padding-left: 0.3rem;
+    font-size: 0.3rem;
+}
+.mainer2_two p:nth-of-type(2){
+    border-bottom:none;
+}
+.mainer2_two p span.bai{
+    color:#81838e;
+    margin-right: 0.25rem;
+}
+/*footer1部分*/
+.footer1_father{
+    width: 10rem;
+    height: 1.2rem;
+    margin:0 auto;
+    position: fixed;
+    bottom: 0;
+}
+.footer1{
+    width: 10rem;
+    border-top:1px solid #e9e9e9;
+    height: 1.2rem;
+    position: fixed;
+    bottom: 0;
+    z-index:1000;
+    background: #fff;
+}
+.footer1 ul li{
+    float: left;
+}
+.footer1 ul li a{
+    color: #5e606b;
+    text-align: center;
+}
+.footer1 ul li a p{
+    color: #000000;
+}
+.footer1 ul li a:hover{
     text-decoration: none;
 }
-.mainer2_one p{
-    margin-left: 0.45rem;
+.footer1 ul li a.qian{
+    display: block;
+    width: 1.5rem;
+    height: 1.2rem;
+    padding-top: 0.2rem;
 }
-.mainer2_one p:nth-of-type(1){
-    color: #000000;
+.footer1 ul li a.qian span{
+    font-size: 0.45rem;
+}
+.footer1 ul li a p{
     font-size: 0.3rem;
-    margin-top: 0.2rem;
 }
-.mainer2_one p:nth-of-type(2){
-    margin-top: 0.2rem;
-    position: relative;
-    height: 0.4rem;
+.footer1 ul li a.hou{
+    display: block;
+    width: 2.75rem;
+    height: 1.2rem;
+    padding-top: 0.4rem;
 }
-.mainer2_one p span:nth-of-type(1),
-.mainer2_one p span:nth-of-type(2),
-.mainer2_one p span:nth-of-type(3){
-    color:#ff5000;
+.footer1 ul li a.hou p{
+    color: #ffffff;
 }
-.mainer2_one p span:nth-of-type(1){
-    position: absolute;
-    left: 0rem;
-    top: 0.02rem;
+.footer1 ul li a.buy{
+    background: #ffb03f;
 }
-.mainer2_one p span:nth-of-type(2){
-    position: absolute;
-    left: 0.25rem;
-}
-.mainer2_one p span:nth-of-type(3){
-    color:#999;
-    position: absolute;
-    left: 1.1rem;
-}
-.mainer2_one .mainer2_one_left{
-    float: left;
-    width: 4.95rem;
-    height: 6.45rem;
-    margin-right: 0.1rem;
-    background: #fff;
-}
-.mainer2_one .mainer2_one_left img{
-    width: 4.95rem;
-    height: 4.95rem;
-}
-.mainer2_one .mainer2_one_right{
-    float: left;
-    width: 4.95rem;
-    height: 6.45rem;
-    background: #fff;
-}
-.mainer2_one .mainer2_one_right img{
-    width: 4.95rem;
-    height: 4.95rem;
+.footer1 ul li a.liji{
+    background: #f23030;
 }
