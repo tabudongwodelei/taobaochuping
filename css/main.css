@@ -221,6 +221,7 @@ header .header_inter a i{
 .main2_left img{
     width: 3.786rem;
     height: 5.04rem;
+    border-right:1px solid #efefef;
 }
 /*main2右边部分*/
 .main2_right{
@@ -230,47 +231,51 @@ header .header_inter a i{
 }
 .main2_right .main2_top{
     width: 6.214rem;
-    height: 2.32rem;
+    height: 2.3rem;
 }
 .main2_right .main2_top .right_one{
     float: left;
     width: 3.04rem;
-    height: 2.32rem;
+    height: 2.3rem;
 }
 .main2_right .main2_top .right_one img{
     width: 3.04rem;
-    height: 2.32rem;
+    height: 2.3rem;
+    border-bottom:1px solid #efefef;
+    border-right:1px solid #efefef;
 }
 .main2_right .main2_top .right_two{
     float: left;
-    width: 3.04rem;
-    height: 2.32rem;
+    width: 3.16rem;
+    height: 2.3rem;
 }
 .main2_right .main2_top .right_two img{
-    width: 3.04rem;
-    height: 2.32rem;
+    width: 3.16rem;
+    height: 2.3rem;
+    border-bottom:1px solid #efefef;
 }
 .main2_right .main2_bottom{
     width: 6.214rem;
-    height: 2.72rem;
+    height: 2.74rem;
 }
 .main2_right .main2_bottom .right_three{
     width: 3.04rem;
-    height: 2.72rem;
+    height: 2.74rem;
     float: left;
 }
 .main2_right .main2_bottom .right_three img{
     width: 3.04rem;
-    height: 2.72rem;
+    height: 2.74rem;
+    border-right:1px solid #efefef;
 }
 .main2_right .main2_bottom .right_four{
     width: 3.16rem;
-    height: 2.72rem;
+    height: 2.74rem;
     float: left;
 }
 .main2_right .main2_bottom .right_four img{
     width: 3.16rem;
-    height: 2.72rem;
+    height: 2.74rem;
 }
 /*main3部分*/
 .main3{
