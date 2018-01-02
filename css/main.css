@@ -221,7 +221,6 @@ header .header_inter a i{
 .main2_left img{
     width: 3.786rem;
     height: 5.04rem;
-    border-right:1px solid #efefef;
 }
 /*main2右边部分*/
 .main2_right{
@@ -231,51 +230,47 @@ header .header_inter a i{
 }
 .main2_right .main2_top{
     width: 6.214rem;
-    height: 2.3rem;
+    height: 2.32rem;
 }
 .main2_right .main2_top .right_one{
     float: left;
     width: 3.04rem;
-    height: 2.3rem;
+    height: 2.32rem;
 }
 .main2_right .main2_top .right_one img{
     width: 3.04rem;
-    height: 2.3rem;
-    border-bottom:1px solid #efefef;
-    border-right:1px solid #efefef;
+    height: 2.32rem;
 }
 .main2_right .main2_top .right_two{
     float: left;
-    width: 3.16rem;
-    height: 2.3rem;
+    width: 3.1rem;
+    height: 2.32rem;
 }
 .main2_right .main2_top .right_two img{
-    width: 3.16rem;
-    height: 2.3rem;
-    border-bottom:1px solid #efefef;
+    width: 3.1rem;
+    height: 2.32rem;
 }
 .main2_right .main2_bottom{
     width: 6.214rem;
-    height: 2.74rem;
+    height: 2.72rem;
 }
 .main2_right .main2_bottom .right_three{
     width: 3.04rem;
-    height: 2.74rem;
+    height: 2.72rem;
     float: left;
 }
 .main2_right .main2_bottom .right_three img{
     width: 3.04rem;
-    height: 2.74rem;
-    border-right:1px solid #efefef;
+    height: 2.72rem;
 }
 .main2_right .main2_bottom .right_four{
-    width: 3.16rem;
-    height: 2.74rem;
+    width: 3.1rem;
+    height: 2.72rem;
     float: left;
 }
 .main2_right .main2_bottom .right_four img{
-    width: 3.16rem;
-    height: 2.74rem;
+    width: 3.1rem;
+    height: 2.72rem;
 }
 /*main3部分*/
 .main3{
@@ -293,7 +288,7 @@ header .header_inter a i{
 }
 .main3_top a{
     display: inline-block;
-    width: 2rem;
+    width: 3.5rem;
     height: 0.4rem;
     position: relative;
 }
@@ -302,12 +297,12 @@ header .header_inter a i{
     width: 0.4rem;
     height: 0.4rem;
     top: 0rem;
-    left: 0.1rem;
+    left: -0.1rem;
 }
 .main3_top a span{
     position: absolute;
     bottom: 0rem;
-    right: 0.35rem;
+    right: 2rem;
     color:#ff350e;
     font-size: 0.35rem;
 }
